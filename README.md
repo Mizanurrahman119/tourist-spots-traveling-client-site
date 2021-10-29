@@ -1,7 +1,6 @@
 # ------------- Getting Started :---------------
 
-## Website Name:
-### Tourist Spots Traveling
+## Website Name: # Tourist Spots Traveling
 
 ## Server link:
 
