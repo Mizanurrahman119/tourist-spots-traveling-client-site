@@ -1,5 +1,8 @@
 import React from 'react';
 import "./Banner.css"
+import banner1 from "../../../image/banner/banner1.png";
+import banner2 from "../../../image/banner/banner2.png";
+import banner3 from "../../../image/banner/banner3.png";
 import { Carousel } from 'react-bootstrap';
 
 const Banner = () => {
@@ -7,7 +10,7 @@ const Banner = () => {
         <>
             <Carousel>
                 <Carousel.Item>
-                    <img className="d-block w-100" src="https://i.ibb.co/bvBdfj6/halima-bouchouicha-0cf4-Ym-S3-M3-M-unsplash-2.png" alt="First slide"/>
+                    <img className="d-block w-100" src={banner1} alt="First slide"/>
                     <Carousel.Caption>
                         <h1 className="top-heading">Welcome !</h1>
                         <h3  className=" heading">Tourist Spots Traveling</h3>
@@ -15,7 +18,7 @@ const Banner = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
                     <Carousel.Item>
-                    <img className="d-block w-100" src="https://i.ibb.co/KN4z7SW/shlomo-shalev-Go-PYSBv-Z-QQ-unsplash-1-1.png" alt="Second slide" />
+                    <img className="d-block w-100" src={banner2} alt="Second slide" />
 
                     <Carousel.Caption>
                         <h1 className="top-heading">Welcome !</h1>
@@ -24,7 +27,7 @@ const Banner = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                        <img className="d-block w-100" src="https://i.ibb.co/MCmQWXZ/previn-samuel-AZq-Al-EIt-TMI-unsplash-1.png" alt="Third slide"/>
+                        <img className="d-block w-100" src={banner3} alt="Third slide"/>
 
                     <Carousel.Caption>
                         <h1 className="top-heading">Welcome !</h1>
