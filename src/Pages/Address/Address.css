@@ -1,0 +1,10 @@
+.add-address form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.add-address form input, textarea{
+    width: 50%;
+    margin: 5px;
+}

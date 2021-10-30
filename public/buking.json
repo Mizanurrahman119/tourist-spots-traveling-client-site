@@ -2,56 +2,56 @@
     {
         "id": 1,
         "name": "Mirpur Zoo",
-        "price": "300",
+        "price": "3000",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
         "img": "https://i.ibb.co/1LqqDZ0/dhaka-zoo.png"
     },
     {
         "id": 2,
         "name": "Sopnopuri Dinajpur",
-        "price": "100",
+        "price": "3000",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
         "img": "https://i.ibb.co/85cQVG8/b-20920159504118-Paratrooper.png"
     },
     {
         "id": 3,
         "name": "Jaflong Packeg",
-        "price": "150",
+        "price": "8500",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
         "img": "https://i.ibb.co/BtkkN7p/jaflong.png"
     },
     {
         "id": 4,
         "name": "khagrachari Packeg",
-        "price": "180",
+        "price": "9000",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
         "img": "https://i.ibb.co/pZZwgcL/jaflong-image21-jaxindex.png"
     },
     {
         "id": 5,
         "name": "Safari-park packeg",
-        "price": "100",
+        "price": "4000",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
         "img": "https://i.ibb.co/6RqWTJF/safari-park.png"
     },
     {
         "id": 6,
         "name": "Sundarban Packeg",
-        "price": "300",
+        "price": "9000",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
         "img": "https://i.ibb.co/C2kM1YX/Sundarban.png"
     },
     {
         "id": 7,
         "name": "Cox-Bazar Packeg",
-        "price": "300",
+        "price": "10000",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
         "img": "https://i.ibb.co/b6FjwcK/coxs-bazar-beach.png"
     },
     {
         "id": 8,
         "name": "Sant-Martin Packeg",
-        "price": "300",
+        "price": "15000",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
         "img": "https://i.ibb.co/Jy4R0P8/st-martin-islam-image27-jaxindex.png"
     }
