@@ -2,10 +2,7 @@
 
 ## Website Name: # Tourist Spots Traveling
 
-## Server link:
-
-
-## Website live link:
+## Website live link: https://tourist-spots-traveling.web.app/
 
 ## Bullet Point:
 #### 1. It is tour related website.
