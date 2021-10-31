@@ -8,7 +8,7 @@ const Address = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
         console.log(data);
-        axios.post('http://localhost:5000/booking', data)
+        axios.post('https://chilling-blood-83343.herokuapp.com/booking', data)
         .then(res => {
             if(res.data.insertedId) {
                 alert('successful yor booking !');

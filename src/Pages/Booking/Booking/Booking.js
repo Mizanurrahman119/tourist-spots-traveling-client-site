@@ -7,7 +7,7 @@ const Booking = () => {
     const {serviceId} = useParams();
     const [booked, setBooked] =  useState({});
     useEffect(() => {
-        fetch(`http://localhost:5000/spots/${serviceId}`)
+        fetch(`https://chilling-blood-83343.herokuapp.com/spots/${serviceId}`)
         .then(res => res.json())
         .then(data => setBooked(data))
     },[])

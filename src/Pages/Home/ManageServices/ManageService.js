@@ -4,7 +4,7 @@ import "./ManageServices.css"
 const ManageService = () => {
     const [manages, setManages] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/manages')
+        fetch('https://chilling-blood-83343.herokuapp.com/manages')
         .then(res => res.json())
         .then(data => setManages(data))
     },[]);
@@ -12,7 +12,7 @@ const ManageService = () => {
     const handleDelete = id => {
        const proceed = window.confirm("Are you sure, You want to delete");
        if(proceed) {
-        const url =`http://localhost:5000/manages/${id}`;
+        const url =`https://chilling-blood-83343.herokuapp.com/${id}`;
         fetch(url, {
             method: 'DELETE'
         })
