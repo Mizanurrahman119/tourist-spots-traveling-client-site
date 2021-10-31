@@ -1,17 +1,17 @@
 [
     {
-        "name": "1st Class",
-        "cost": "10000",
+        "name": "First Class",
+        "cost": "1000",
         "img": "https://i.ibb.co/Ryz4sNb/jalal-kelink-ugz-Sz-SG7-CFA-unsplash-1.png"
     },
     {
-        "name": "2nd Class",
-        "cost": "80000",
+        "name": "Second Class",
+        "cost": "8000",
         "img": "https://i.ibb.co/XFVMKL1/egor-litvinov-Rl-HI0c-CNTh-Y-unsplash-1.png"
     },
     {
-        "name": "3rd Class",
-        "cost": "70000",
+        "name": "Third Class",
+        "cost": "7000",
         "img": "https://i.ibb.co/25S7ZQ4/roman-fox-qo-Xga-F27z-Bc-unsplash-1.png"
     }
 ]

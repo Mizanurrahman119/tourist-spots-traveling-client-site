@@ -1,0 +1,32 @@
+.manage-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding-bottom: 10px;
+}
+.manages{
+    border: 1px solid brown;
+    padding: 5px;
+    margin: 0px 10px;
+    background-color: rgb(247, 178, 156);
+    border-radius: 10px;
+}
+
+.manage-heading{
+    color:deeppink;
+    margin: 20px;
+}
+@media only screen and (min-width: 689px) and (max-Width:1024px) {
+    .manage-container{
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0px 10px;
+    }
+    
+}
+
+@media only screen and (max-width:688px) {
+    .manage-container{
+         grid-template-columns: repeat(2, 1fr);
+         margin: 0px 10px;
+    }
+}

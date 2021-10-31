@@ -1,0 +1,15 @@
+.about-container{
+    background-color: rgb(68, 32, 75);
+    color: rgb(201, 202, 197);
+}
+
+.heading{
+    color: rgb(214, 1, 161);
+    font-weight: bolder;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+
+.col-detail{
+    margin-bottom: 30px;
+}

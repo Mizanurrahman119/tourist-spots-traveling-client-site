@@ -1,12 +1,24 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import "./Booking.css"
 import { useParams } from 'react-router';
+import { Link } from 'react-router-dom';
 
 const Booking = () => {
-    const {serviceName,serviceId} = useParams()
+    const {serviceId} = useParams();
+    const [booked, setBooked] =  useState({});
+    useEffect(() => {
+        fetch(`http://localhost:5000/spots/${serviceId}`)
+        .then(res => res.json())
+        .then(data => setBooked(data))
+    },[])
+
     return (
-        <div>
-            <h1>this is booking {serviceId}</h1>
-            <h4>{serviceName}</h4>
+        <div className="booking-container">
+            <img src={booked.img} alt="" className="booked-image" />
+            <h3>Spot Name: {booked.name}</h3>
+            <h5>Cost: {booked.price}</h5>
+            <h6>Booking-Id: {serviceId}</h6>
+            <Link to="/address"><button className="btn-warning mb-4">added booking</button></Link>
         </div>
     );
 };

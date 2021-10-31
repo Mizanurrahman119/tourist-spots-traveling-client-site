@@ -1,0 +1,13 @@
+.booking-container{
+    color: floralwhite;
+}
+.btn-warning{
+    border: none;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+.booked-image{
+    width: 200px;
+    height: 200px;
+    margin: 20px 0px;
+}

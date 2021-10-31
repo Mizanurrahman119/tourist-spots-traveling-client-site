@@ -12,7 +12,7 @@ const Buses = () => {
     },[])
     return (
         <div>
-            <h2 className="text-primary mt-4">Our Bub Service</h2>
+            <h2 className="text mt-4">Our Bus Service</h2>
             <div className="buses-container">
                 {
                     buses.map(bus => <Bus key={bus.name} bus={bus}></Bus>)
