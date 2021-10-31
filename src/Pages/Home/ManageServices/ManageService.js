@@ -10,6 +10,8 @@ const ManageService = () => {
     },[]);
 
     const handleDelete = id => {
+       const proceed = window.confirm("Are you sure, You want to delete");
+       if(proceed) {
         const url =`http://localhost:5000/manages/${id}`;
         fetch(url, {
             method: 'DELETE'
@@ -22,6 +24,7 @@ const ManageService = () => {
                 setManages(remaining);
             }
         })
+       }
     }
     return (
         <div>
