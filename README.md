@@ -5,6 +5,7 @@
 ## Website live link: https://tourist-spots-traveling.web.app/
 
 ## Bullet Point:
+## -------------------------
 #### 1. It is tour related website.
 #### 2. Click on home menu see the some spots and bus service.
 #### 3. Choeses your spots and click on booking tour button and login your email.
